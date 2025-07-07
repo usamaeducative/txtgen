@@ -2,7 +2,7 @@
 import argparse
 
 def generate_text(count):
-    return "lorem ipsum " * count
+    return str( "lorem ipsum " * count
 
 def main():
     parser = argparse.ArgumentParser()
