@@ -2,7 +2,7 @@
 import argparse
 
 def generate_text(count):
-    return str( "lorem ipsum " * count
+    return "lorem ipsum " * count
 
 def main():
     parser = argparse.ArgumentParser()
@@ -12,5 +12,3 @@ def main():
 
 if __name__ == "__main__":
     main()
-# TODO: add help text
-# log added
